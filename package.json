@@ -6,7 +6,7 @@
   "author": "Sayyed Sharuk",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "npm i",
     "start": "node dist/app.js",
     "dev": "nodemon src/app.ts"
   },
