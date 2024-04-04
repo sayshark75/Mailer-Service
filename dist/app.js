@@ -25,7 +25,6 @@ app.use(express_1.default.urlencoded({ extended: true }));
 app.use(express_1.default.json());
 app.use(express_1.default.static("public"));
 app.use("/mail", service_routes_1.default);
-// No default get request, because we serving a static page from directory "/public"
 app.listen(process.env.PORT, () => {
     console.log(`Server Running on port ${process.env.PORT}`);
 });
